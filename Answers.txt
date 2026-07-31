@@ -31,3 +31,59 @@ first six months?
 
 
 #Chapter 2
+2.1 
+What is a CPU?
+- A group of components consisting of transistors, that 
+execute instructions.
+
+What is the difference between an interpreter and a compiler?
+- An interpreter reads each line of code and runs it before 
+moving to the next line of code while a compiler first
+translates/reads the whole code before running it.
+
+why salesforce have governor limits?
+- Governor limits prevent a single transaction of code execution
+from using up all the resources on the platform that are shared
+ amongst other salesforce users.
+
+2.2 Binary by hand
+
+Binary Place Value Breakdown of 1000
+1 is in the eights place (2³ = 8)
+0 is in the fours place (2² = 4)
+0 is in the twos place (2¹ = 2)
+0 is in the ones place (2⁰ = 1)
+
+Conversion Math
+(1*8)+(0*4)+(0*2)+(0*1) = 8
+
+1010 => 10
+10001 => 17
+
+
+2.3 Read the chef's recipe
+Step 2 fetches data
+step 6 does the multiplication
+
+2.4 - The tower narration
+- When i type "System.debug('hello')" on the debug log,
+i'm instructing apex to display the arg onto the log.
+
+The request is  sent to the salesforce servers, 
+code compiles if no errors, the CPU executes the 
+task within the governor limits through a series 
+of switching transistors on and off.
+
+2.5 - Limit archaeology
+AsyncException 
+This exception ran because i poorly designed code
+to run in the background when resources are available.
+This limit was protecting the CPU and over use of
+salesforce shared resources. 
+- The poor design was setting up code to run in the future
+which would trigger other code to run in the future as well.
+- The right design was queueing my code to runwhen resources
+ are available.
+
+Reflection question
+- I imagined deploying code... nothing
