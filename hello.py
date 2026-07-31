@@ -1,1 +1,1 @@
-print("Hello BrewMate")
+print('brewMate')

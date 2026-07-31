@@ -1,0 +1,33 @@
+#Chapter 1
+1.1 - The Tower
+Flows are abstracted by Apex
+Apex is abstracted by Java
+Java is abstracted by machine code
+Machine code is abstracted by transistors
+transistors are abstracted by physics
+
+1.2 - Spot the Level
+I'll add a avalidation rule to block discounts over 20% - Configurator
+I'll write a trigger that checks the discount before insert - Developer
+I want to know how many quote lines arrive per transaction
+    and whether this rule will ever need to consult another 
+    object; that determines whether this belongs in a 
+    validation rule, a trigger, or a CPQ price rule - Enginner
+
+1.3 Break your program deliberately
+Remove a quote - Syntax Error (Unterminated String lateral)
+Misspell print - Name Error (prit is not defined. Did you mean print?)
+Remove a bracket - Syntax Error ("(" was never closed)
+
+1.4 The Salesforce Connect ( Find one thing you did at work this week in 
+Salesforce and write two sentences on what you think is happening underneath it.)
+- Salesforce records are abstracted by the UI display covering 
+the tables (rows and columns) they belong to.
+
+Reflection question. 
+What's one Salesforce behaviour that has genuinely mystified you in your 
+first six months?
+- Immediate loading of records stored on salesforce servers
+
+
+#Chapter 2
